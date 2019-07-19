@@ -1,7 +1,7 @@
 part of duration.locale;
 
-class GermanDurationLocale implements DurationLocale {
-  const GermanDurationLocale();
+class GermanDurationLanguage implements DurationLocale {
+  const GermanDurationLanguage();
 
   String year(int amount, [bool abbreviated = true]) {
     if (abbreviated) {
